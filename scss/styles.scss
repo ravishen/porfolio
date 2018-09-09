@@ -155,11 +155,11 @@ a{
     background: $main-background;
     border-bottom: 1px $accent-color solid;
     overflow: hidden;
-    
+
     @include mQ(760px) {
         padding-top: 25px;
     }
-    
+
 }
 
 .open-nav {
@@ -179,7 +179,7 @@ a{
     font-weight: bold;
     color: $accent-color;
     font-family: $accent-font;
-    
+
     @include mQ(760px) {
         float: none;
     }
@@ -188,7 +188,7 @@ a{
 #main-header nav{
     width: 80%;
     float: right;
-    
+
     @include mQ(760px) {
         width: 100%;
     }
@@ -198,7 +198,7 @@ a{
     overflow: hidden;
     list-style: none;
     text-align: right;
-        
+
     @include mQ(760px) {
         width: 100%;
         float: left;
@@ -212,7 +212,7 @@ a{
             display: inline-block;
             margin-left: 20px;
             line-height: 1.5;
-            
+
             @include mQ(760px){//760px
                 width: 100%;
                 padding: 10px 0;
@@ -247,7 +247,7 @@ a{
     -webkit-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
     transition: all 200ms ease-in;
-    
+
     @include mQ(760px) {
         display: block;
     }
@@ -289,19 +289,19 @@ a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
     h1{
         font-size: 50px;
         color: #fff;
         margin-top: 30px;
         margin-bottom: 10px;
     }
-    
+
     h2{
         font-size: 30px;
         color: #bfbfbf;
     }
-    
+
     .download{
         color: #bfbfbf;
         background: none;
@@ -310,12 +310,12 @@ a{
         padding: 10px;
         transition: border-color 0.3s ease;
         cursor: pointer;
-        
+
         a{
             color: #bfbfbf;
             font-size: $paragraph-size;
         }
-        
+
         &:hover{
             border-color: #bfbfbf;
         }
@@ -331,7 +331,7 @@ a{
         width: 200px;
         height: 200px;
     }
-    
+
 }
 
 /***********************************ABOUT STYLES***********************************/
@@ -350,11 +350,11 @@ a{
 .about-social{
     margin-top:20px;
     margin-bottom: 20px;
-    
+
     li{
         padding-right: 20px;
     }
-    
+
     .fab, .far{
         width: 40px;
         height: 40px;
@@ -366,7 +366,7 @@ a{
         color: $primary-color;
         transition: color 0.3s ease;
         cursor: pointer;
-        
+
         &:hover{
             color: $accent-color;
         }
@@ -396,7 +396,7 @@ a{
     top: 0;
     left: 0;
     height: inherit;
-    
+
 }
 
 .inner-percent{
@@ -412,7 +412,7 @@ a{
 
 .development{
     width: 63%;
-    
+
 }
 
 .design{
@@ -432,7 +432,7 @@ a{
 //This is the block that contains the icon, header, and text for each service
 .service-block{
     padding: 20px;
-    
+
     .icon{
         color: $accent-color;
         font-size: 40px;
@@ -440,7 +440,7 @@ a{
         transform: translateY(-20px);
         transition: all .3s ease-out;
     }
-    
+
     .service-icon-animate{
         opacity: 1;
         transform: translateY(0);
@@ -451,19 +451,19 @@ a{
     &:nth-child(1),&:nth-child(2),&:nth-child(3){
         border-bottom: 1px $seconary-color solid;
     }
-    
+
     @include mQ(991px){
         &:nth-child(-n+4){
             border-bottom: 1px $seconary-color solid;
         }
     }
-    
+
     @include mQ(768px){
         &:nth-child(5){
             border-bottom: 1px $seconary-color solid;
         }
     }
-    
+
 }
 
 .vb{ //stands for vertical border
@@ -496,20 +496,20 @@ a{
 
 #filter-btn{
     margin-bottom: 40px;
-    
+
     ul{
         text-align: center;
     }
-    
+
     li{
         padding-right: 20px;
-        
+
         @include mQ(760px){
             display: block;
             margin-top: 10px;
         }
     }
-    
+
     .button{
         border: 1px $seconary-color solid;
         padding: 10px 30px 10px 30px;
@@ -518,7 +518,7 @@ a{
         cursor: pointer;
         outline: none;
         transition: all .3s ease-out;
-        
+
         &:hover{
             color: $accent-color;
         }
@@ -530,11 +530,11 @@ a{
     width: 30%;
     margin: 10px;
     height: auto;
-    
+
     img{
         border-radius: 10px;
     }
-    
+
     @include mQ(760px){
         width: 100%;
      }
@@ -553,7 +553,7 @@ a{
     cursor: pointer;
     transition: all .3s ease-out;
     opacity: 0;
-    
+
     &:hover{
         opacity: 1;
     }
@@ -566,11 +566,11 @@ a{
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-    
+
     h3{
         margin: 0;
     }
-    
+
     p{
         color: #fff;
     }
@@ -594,7 +594,7 @@ a{
             color: white;
             margin-bottom: 15px;
             margin-top: 15px;
-        }  
+        }
     }
 }
 
@@ -610,7 +610,7 @@ a{
 .contact-block{
     height: 50px;
     margin-bottom: 150px;
-    
+
     @include mQ(768px){
         margin-bottom: 40px;
     }
@@ -683,4 +683,3 @@ footer{
     padding: 12px 0 12px 0;
     text-align: center;
 }
-
